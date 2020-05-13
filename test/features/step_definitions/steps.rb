@@ -12,7 +12,7 @@ Given (/^I click sign in label$/) do
 end
 
 Given (/^I enter valid username$/) do
-    driver.find_element(:xpath=>'//*[@id="ap_email"]').send_keys('justdictator@gmail.com')
+    driver.find_element(:xpath=>'//*[@id="ap_email"]').send_keys('input valid email : xxxx@gmail.com')
     sleep(2) 
 end
 
@@ -22,7 +22,7 @@ And (/^I click continue button$/) do
 end
 
 Given (/^I enter valid password$/) do
-    driver.find_element(:xpath=>'//*[@id="ap_password"]').send_keys('Rahasia')
+    driver.find_element(:xpath=>'//*[@id="ap_password"]').send_keys('input valid password')
     sleep(2) 
 end
 
